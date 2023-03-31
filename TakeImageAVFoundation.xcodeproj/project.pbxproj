@@ -14,6 +14,7 @@
 		5D7CC2B329D7085A00F472CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7CC2B229D7085A00F472CD /* Assets.xcassets */; };
 		5D7CC2B629D7085A00F472CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7CC2B429D7085A00F472CD /* LaunchScreen.storyboard */; };
 		5D7CC2BE29D70A7400F472CD /* CapturedImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7CC2BD29D70A7400F472CD /* CapturedImageVC.swift */; };
+		5D7CC2C329D7670800F472CD /* Extension UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7CC2C229D7670800F472CD /* Extension UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5D7CC2B529D7085A00F472CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D7CC2B729D7085A00F472CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D7CC2BD29D70A7400F472CD /* CapturedImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturedImageVC.swift; sourceTree = "<group>"; };
+		5D7CC2C229D7670800F472CD /* Extension UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension UIImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				5D7CC2AB29D7085900F472CD /* SceneDelegate.swift */,
 				5D7CC2BF29D70B2300F472CD /* Controllers */,
 				5D7CC2C029D70B2F00F472CD /* View */,
+				5D7CC2C429D7671A00F472CD /* Extensions */,
 				5D7CC2C129D70B3D00F472CD /* Files */,
 			);
 			path = TakeImageAVFoundation;
@@ -92,6 +95,14 @@
 				5D7CC2B729D7085A00F472CD /* Info.plist */,
 			);
 			name = Files;
+			sourceTree = "<group>";
+		};
+		5D7CC2C429D7671A00F472CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5D7CC2C229D7670800F472CD /* Extension UIImage.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7CC2C329D7670800F472CD /* Extension UIImage.swift in Sources */,
 				5D7CC2BE29D70A7400F472CD /* CapturedImageVC.swift in Sources */,
 				5D7CC2AE29D7085900F472CD /* ViewController.swift in Sources */,
 				5D7CC2AA29D7085900F472CD /* AppDelegate.swift in Sources */,

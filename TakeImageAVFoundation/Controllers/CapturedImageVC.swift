@@ -11,16 +11,15 @@ class CapturedImageVC: UIViewController {
 
     @IBOutlet weak var capturedImageView: UIImageView!
     
-    var capturedImage: Data?
+    var capturedImage: UIImage?
 
     
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let image = capturedImage {
-            capturedImageView.image = UIImage(data: image)
-        }
+        
+            capturedImageView.image = capturedImage
     }
 
     // MARK: - IBAction
